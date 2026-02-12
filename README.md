@@ -49,27 +49,13 @@ Future versions may include:
 ---
 
 # 📦 Repository Structure
-JumpAnalyzer/
-│
-├── hardware/
-│   ├── kicad/        → KiCad schematic, PCB and symbol libraries
-│   ├── exports/      → Production files (PDF schematics, PCB renders, Gerbers)
-│   └── bom/          → Bill of Materials (component list)
-│
-├── docs/             → System concept, architecture, algorithms, test notes
-│
-├── firmware/         → (planned) MCU firmware source code
-│
-├── software/         → (planned) Data processing & visualization tools
-│
-├── assets/
-│   └── images/       → Project photos, PCB renders, diagrams
-│
-├── README.md
-├── LICENSE
-└── .gitignore
-
-# 🔧 Hardware Overview
+hardware/kicad/ KiCad schematic and PCB files
+hardware/exports/ PDFs, PCB renders, gerbers
+hardware/bom/ Bill of Materials
+docs/ Concept and algorithm notes
+firmware/ (planned) MCU firmware
+software/ (planned) data analysis tools
+assets/ Images and visual materials# 🔧 Hardware Overview
 
 - IMU: MPU-9250 (9-DOF)
 - Interface: I2C or SPI
