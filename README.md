@@ -49,7 +49,6 @@ Future versions may include:
 ---
 
 # 📦 Repository Structure
-
 JumpAnalyzer/
 │
 ├── hardware/
@@ -69,8 +68,6 @@ JumpAnalyzer/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
----
 
 # 🔧 Hardware Overview
 
